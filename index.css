@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: inline-flex; 
+    position: sticky;
+    top: 0;
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+
+.header p{
+    margin-left: 10px;
+    font-size: 6px;
+    color: steelblue;
+}
+
+.header p:nth-child(2){
+    margin-left: 150px;
+}
+
+.header a{
+    text-decoration: none;  
+}
+ .content p{
+    margin-left: 10px;
+ }
+.content p:first-child{
+    font-size: 20px;
+    color: steelblue;
+}
+.content p:nth-child(2){
+    font-size: 8px;
+    color: slategrey;   
+}
+
+.content button{
+    position: absolute;
+    right: 30px;
+    top: 80px;
+    height: 30px; 
+    z-index: -1;
+}
+
+.icondiv p {
+    text-align: center;
+    font-size: 13px;
+    color: steelblue;
+}
+.lists{
+    display: inline-flex;
+}
+
+.lists li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.lists li:hover{
+    transform: scale(1.5);
+}
+
+.subcontent p:first-child{
+    text-align: center;
+    color: steelblue;
+}
+
+.subcontent p:nth-child(2){
+    text-align: center;
+    font-size: 7px;
+    color: slategrey;
+}
+.holecarddiv{
+    text-align: center;
+    color: steelblue;
+}
+.carddiv {
+    display: inline-flex;
+}
+.card{
+    width:80px;
+    height:80px;
+    background-color: #FAFBFC;
+    margin-left: 30px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card a {
+    text-decoration: none;
+    font-size: 8px;
+}
+.card p {
+    font-size: 6px;
+    color: slategrey;
+}
+.footer{
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+    background-color: aliceblue;
+}
+.copyrights{
+    font-size: 5px;
+    margin-top: 8px;
+    position: absolute;
+    right:80px;
+    color: slategrey;
+}
+
+.footericon{
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    right: 20px;
+}
+.footericon i {
+    margin-left: 10px;
+    font-size: 7px;
+}
